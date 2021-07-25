@@ -24,7 +24,7 @@ extension SearchViewController: SearchViewModelDelegate {
 
         let alert = UIAlertController(
             title: "Error",
-            message: viewModel.errorMessage,
+            message: "The request failed. Please try again.",
             preferredStyle: .alert
         )
         alert.addAction(UIAlertAction(title: "OK", style: .cancel))
