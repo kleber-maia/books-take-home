@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Search" id="BYZ-38-t0r" customClass="SearchViewController" customModule="Books" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="insetGrouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="amA-G8-HDL">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" searchBarStyle="prominent" placeholder="Enter keywords..." showsCancelButton="YES" id="Tlz-GL-rnQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                    <scopeButtonTitles>
+                                        <string>Title</string>
+                                        <string>Title</string>
+                                    </scopeButtonTitles>
+                                    <connections>
+                                        <outlet property="delegate" destination="BYZ-38-t0r" id="phd-9f-LQP"/>
+                                    </connections>
+                                </searchBar>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BookCell" id="LsD-Nm-AvV" customClass="BookCell" customModule="Books" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="100.5" width="374" height="136.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LsD-Nm-AvV" id="QCO-fx-21l">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="136.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="03J-SK-zKU">
+                                                    <rect key="frame" x="8" y="8" width="358" height="120.5"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book-cover-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="o15-fq-2ai">
+                                                            <rect key="frame" x="0.0" y="0.5" width="107.5" height="120"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="120" id="544-aC-RG0"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="otR-NT-zOX">
+                                                            <rect key="frame" x="115.5" y="41" width="242.5" height="39"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0B-s8-EnZ">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="242.5" height="20.5"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPk-mg-6al">
+                                                                    <rect key="frame" x="0.0" y="24.5" width="242.5" height="14.5"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="o15-fq-2ai" firstAttribute="width" secondItem="03J-SK-zKU" secondAttribute="width" multiplier="0.3" id="TCk-Ph-xt3"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="03J-SK-zKU" secondAttribute="trailing" constant="8" id="202-BL-ZaI"/>
+                                                <constraint firstAttribute="bottom" secondItem="03J-SK-zKU" secondAttribute="bottom" constant="8" id="3Lf-wJ-I40"/>
+                                                <constraint firstItem="03J-SK-zKU" firstAttribute="leading" secondItem="QCO-fx-21l" secondAttribute="leading" constant="8" id="9eT-gp-Tjr"/>
+                                                <constraint firstItem="03J-SK-zKU" firstAttribute="top" secondItem="QCO-fx-21l" secondAttribute="top" constant="8" id="T97-kk-SC8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="authorLabel" destination="LPk-mg-6al" id="XGH-N5-vi8"/>
+                                            <outlet property="coverImageView" destination="o15-fq-2ai" id="6IR-Xz-wsH"/>
+                                            <outlet property="titleLabel" destination="g0B-s8-EnZ" id="a4g-qL-ia2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EmptyCell" textLabel="eGo-0n-wdA" rowHeight="64" style="IBUITableViewCellStyleDefault" id="Iy9-pv-9WK">
+                                        <rect key="frame" x="20" y="237" width="374" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Iy9-pv-9WK" id="n7Q-A3-tlr">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="No results found for your search." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" id="eGo-0n-wdA" customClass="ExtendedLabel" customModule="Books" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="0.0" width="334" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TooManyResultsCell" textLabel="daw-TI-UjC" rowHeight="64" style="IBUITableViewCellStyleDefault" id="qat-DE-D1b" customClass="TooManyResultsCell" customModule="Books" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="301" width="374" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qat-DE-D1b" id="tdH-Q6-Yf1">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="[too many results]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" id="daw-TI-UjC" customClass="ExtendedLabel" customModule="Books" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="0.0" width="334" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="messageLabel" destination="daw-TI-UjC" id="kUa-GV-KgB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="RgC-nh-5Xa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="amA-G8-HDL" secondAttribute="trailing" id="6ly-er-oEa"/>
+                            <constraint firstItem="amA-G8-HDL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Kw9-l7-aFU"/>
+                            <constraint firstItem="amA-G8-HDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OqJ-Xh-IpD"/>
+                            <constraint firstAttribute="bottom" secondItem="amA-G8-HDL" secondAttribute="bottom" id="RRN-2B-vCf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search" id="eGa-7s-5Jq"/>
+                    <connections>
+                        <outlet property="tableView" destination="amA-G8-HDL" id="PKE-k5-5Iy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="135.9375"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="daw-TI-UjC">
+            <size key="intrinsicContentSize" width="117.5" height="17"/>
+        </designable>
+        <designable name="eGo-0n-wdA">
+            <size key="intrinsicContentSize" width="212" height="17"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="book-cover-placeholder" width="400" height="400"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

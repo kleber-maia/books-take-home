@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9200E4B726ADCAC700D795CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4B626ADCAC700D795CB /* Main.storyboard */; };
-		9200E4B926ADCAD300D795CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4B826ADCAD300D795CB /* MainViewController.swift */; };
 		9200E4BC26ADCC2500D795CB /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4BB26ADCC2500D795CB /* GeneratedMocks.swift */; };
 		9200E4C026ADCE5200D795CB /* ErrorLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4BE26ADCE5200D795CB /* ErrorLogging.swift */; };
 		9200E4C126ADCE5200D795CB /* ErrorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4BF26ADCE5200D795CB /* ErrorLogger.swift */; };
@@ -20,6 +19,13 @@
 		9200E4D326ADDAC200D795CB /* search_result.json in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4D026ADDAC200D795CB /* search_result.json */; };
 		9200E4D426ADDAC200D795CB /* search_result_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4D126ADDAC200D795CB /* search_result_malformed.json */; };
 		9200E4D626ADDAD500D795CB /* BookAPIServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4D526ADDAD500D795CB /* BookAPIServiceSpec.swift */; };
+		9200E4DF26ADE7FC00D795CB /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4D826ADE7FC00D795CB /* SearchViewModel.swift */; };
+		9200E4E026ADE7FC00D795CB /* SearchViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4D926ADE7FC00D795CB /* SearchViewModelDelegate.swift */; };
+		9200E4E126ADE7FC00D795CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4DB26ADE7FC00D795CB /* SearchViewController.swift */; };
+		9200E4E226ADE7FC00D795CB /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4DC26ADE7FC00D795CB /* Search.storyboard */; };
+		9200E4E326ADE7FC00D795CB /* TooManyResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4DD26ADE7FC00D795CB /* TooManyResultsCell.swift */; };
+		9200E4E426ADE7FC00D795CB /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4DE26ADE7FC00D795CB /* BookCell.swift */; };
+		9200E4E626ADE8FD00D795CB /* SearchViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4E526ADE8FD00D795CB /* SearchViewModelSpec.swift */; };
 		92410B452640BAC9009510C7 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 92410B442640BAC9009510C7 /* OHHTTPStubs */; };
 		92410B472640BAC9009510C7 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 92410B462640BAC9009510C7 /* OHHTTPStubsSwift */; };
 		92A7897A2640600100B9539C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A789792640600100B9539C /* AppDelegate.swift */; };
@@ -52,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		9200E4B626ADCAC700D795CB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9200E4B826ADCAD300D795CB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9200E4BB26ADCC2500D795CB /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		9200E4BE26ADCE5200D795CB /* ErrorLogging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorLogging.swift; sourceTree = "<group>"; };
 		9200E4BF26ADCE5200D795CB /* ErrorLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorLogger.swift; sourceTree = "<group>"; };
@@ -64,6 +69,13 @@
 		9200E4D026ADDAC200D795CB /* search_result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_result.json; sourceTree = "<group>"; };
 		9200E4D126ADDAC200D795CB /* search_result_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_result_malformed.json; sourceTree = "<group>"; };
 		9200E4D526ADDAD500D795CB /* BookAPIServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAPIServiceSpec.swift; sourceTree = "<group>"; };
+		9200E4D826ADE7FC00D795CB /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		9200E4D926ADE7FC00D795CB /* SearchViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModelDelegate.swift; sourceTree = "<group>"; };
+		9200E4DB26ADE7FC00D795CB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9200E4DC26ADE7FC00D795CB /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		9200E4DD26ADE7FC00D795CB /* TooManyResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooManyResultsCell.swift; sourceTree = "<group>"; };
+		9200E4DE26ADE7FC00D795CB /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		9200E4E526ADE8FD00D795CB /* SearchViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModelSpec.swift; sourceTree = "<group>"; };
 		92A789762640600100B9539C /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A789792640600100B9539C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A7897B2640600100B9539C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +164,26 @@
 			path = Fixtures;
 			sourceTree = "<group>";
 		};
+		9200E4D726ADE7FC00D795CB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9200E4D826ADE7FC00D795CB /* SearchViewModel.swift */,
+				9200E4D926ADE7FC00D795CB /* SearchViewModelDelegate.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9200E4DA26ADE7FC00D795CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9200E4DB26ADE7FC00D795CB /* SearchViewController.swift */,
+				9200E4DC26ADE7FC00D795CB /* Search.storyboard */,
+				9200E4DD26ADE7FC00D795CB /* TooManyResultsCell.swift */,
+				9200E4DE26ADE7FC00D795CB /* BookCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		92A7896D2640600100B9539C = {
 			isa = PBXGroup;
 			children = (
@@ -179,10 +211,11 @@
 				9200E4BD26ADCE5200D795CB /* Helpers */,
 				9200E4C226ADD27400D795CB /* Models */,
 				9200E4C726ADD2D100D795CB /* Services */,
+				9200E4D726ADE7FC00D795CB /* ViewModels */,
+				9200E4DA26ADE7FC00D795CB /* Views */,
 				92A789872640600200B9539C /* Info.plist */,
 				92A789842640600200B9539C /* LaunchScreen.storyboard */,
 				9200E4B626ADCAC700D795CB /* Main.storyboard */,
-				9200E4B826ADCAD300D795CB /* MainViewController.swift */,
 				92A7897B2640600100B9539C /* SceneDelegate.swift */,
 			);
 			path = Books;
@@ -194,6 +227,7 @@
 				9200E4CE26ADDAC200D795CB /* Fixtures */,
 				9200E4BA26ADCC0E00D795CB /* Mocks */,
 				9200E4D526ADDAD500D795CB /* BookAPIServiceSpec.swift */,
+				9200E4E526ADE8FD00D795CB /* SearchViewModelSpec.swift */,
 				92A789922640600200B9539C /* Info.plist */,
 			);
 			path = BooksTests;
@@ -325,6 +359,7 @@
 			files = (
 				9200E4B726ADCAC700D795CB /* Main.storyboard in Resources */,
 				92A789862640600200B9539C /* LaunchScreen.storyboard in Resources */,
+				9200E4E226ADE7FC00D795CB /* Search.storyboard in Resources */,
 				92A789832640600200B9539C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +400,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PROJECT_DIR}/run\" --download generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Helpers/ErrorLogging.swift\" \\\n\"${INPUT_DIR}/FileName2.swift\" \\\n\"${INPUT_DIR}/FileName3.swift\"\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
+			shellScript = "# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PROJECT_DIR}/run\" --download generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Helpers/ErrorLogging.swift\" \\\n\"${INPUT_DIR}/Services/BookAPIService.swift\" \\\n\"${INPUT_DIR}/ViewModels/SearchViewModelDelegate.swift\"\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -374,12 +409,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9200E4E326ADE7FC00D795CB /* TooManyResultsCell.swift in Sources */,
 				9200E4C126ADCE5200D795CB /* ErrorLogger.swift in Sources */,
 				9200E4CD26ADDA9800D795CB /* BookAPIService.swift in Sources */,
-				9200E4B926ADCAD300D795CB /* MainViewController.swift in Sources */,
 				9200E4C526ADD27400D795CB /* SearchResultModel.swift in Sources */,
+				9200E4E026ADE7FC00D795CB /* SearchViewModelDelegate.swift in Sources */,
 				9200E4CB26ADD2D100D795CB /* BookCoverAPIService.swift in Sources */,
+				9200E4E126ADE7FC00D795CB /* SearchViewController.swift in Sources */,
 				92A7897A2640600100B9539C /* AppDelegate.swift in Sources */,
+				9200E4DF26ADE7FC00D795CB /* SearchViewModel.swift in Sources */,
+				9200E4E426ADE7FC00D795CB /* BookCell.swift in Sources */,
 				9200E4C626ADD27400D795CB /* SearchItemModel.swift in Sources */,
 				9200E4C026ADCE5200D795CB /* ErrorLogging.swift in Sources */,
 				92A7897C2640600100B9539C /* SceneDelegate.swift in Sources */,
@@ -392,6 +431,7 @@
 			files = (
 				9200E4D626ADDAD500D795CB /* BookAPIServiceSpec.swift in Sources */,
 				9200E4BC26ADCC2500D795CB /* GeneratedMocks.swift in Sources */,
+				9200E4E626ADE8FD00D795CB /* SearchViewModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
