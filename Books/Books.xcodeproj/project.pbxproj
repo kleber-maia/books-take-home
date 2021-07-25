@@ -15,6 +15,11 @@
 		9200E4C526ADD27400D795CB /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4C326ADD27400D795CB /* SearchResultModel.swift */; };
 		9200E4C626ADD27400D795CB /* SearchItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4C426ADD27400D795CB /* SearchItemModel.swift */; };
 		9200E4CB26ADD2D100D795CB /* BookCoverAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4C926ADD2D100D795CB /* BookCoverAPIService.swift */; };
+		9200E4CD26ADDA9800D795CB /* BookAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4CC26ADDA9800D795CB /* BookAPIService.swift */; };
+		9200E4D226ADDAC200D795CB /* search_result_empty.json in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4CF26ADDAC200D795CB /* search_result_empty.json */; };
+		9200E4D326ADDAC200D795CB /* search_result.json in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4D026ADDAC200D795CB /* search_result.json */; };
+		9200E4D426ADDAC200D795CB /* search_result_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = 9200E4D126ADDAC200D795CB /* search_result_malformed.json */; };
+		9200E4D626ADDAD500D795CB /* BookAPIServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200E4D526ADDAD500D795CB /* BookAPIServiceSpec.swift */; };
 		92410B452640BAC9009510C7 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 92410B442640BAC9009510C7 /* OHHTTPStubs */; };
 		92410B472640BAC9009510C7 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 92410B462640BAC9009510C7 /* OHHTTPStubsSwift */; };
 		92A7897A2640600100B9539C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A789792640600100B9539C /* AppDelegate.swift */; };
@@ -54,6 +59,11 @@
 		9200E4C326ADD27400D795CB /* SearchResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
 		9200E4C426ADD27400D795CB /* SearchItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchItemModel.swift; sourceTree = "<group>"; };
 		9200E4C926ADD2D100D795CB /* BookCoverAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverAPIService.swift; sourceTree = "<group>"; };
+		9200E4CC26ADDA9800D795CB /* BookAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAPIService.swift; sourceTree = "<group>"; };
+		9200E4CF26ADDAC200D795CB /* search_result_empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_result_empty.json; sourceTree = "<group>"; };
+		9200E4D026ADDAC200D795CB /* search_result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_result.json; sourceTree = "<group>"; };
+		9200E4D126ADDAC200D795CB /* search_result_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_result_malformed.json; sourceTree = "<group>"; };
+		9200E4D526ADDAD500D795CB /* BookAPIServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAPIServiceSpec.swift; sourceTree = "<group>"; };
 		92A789762640600100B9539C /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A789792640600100B9539C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A7897B2640600100B9539C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,9 +136,20 @@
 		9200E4C726ADD2D100D795CB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				9200E4CC26ADDA9800D795CB /* BookAPIService.swift */,
 				9200E4C926ADD2D100D795CB /* BookCoverAPIService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		9200E4CE26ADDAC200D795CB /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				9200E4CF26ADDAC200D795CB /* search_result_empty.json */,
+				9200E4D026ADDAC200D795CB /* search_result.json */,
+				9200E4D126ADDAC200D795CB /* search_result_malformed.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		92A7896D2640600100B9539C = {
@@ -170,7 +191,9 @@
 		92A7898F2640600200B9539C /* BooksTests */ = {
 			isa = PBXGroup;
 			children = (
+				9200E4CE26ADDAC200D795CB /* Fixtures */,
 				9200E4BA26ADCC0E00D795CB /* Mocks */,
+				9200E4D526ADDAD500D795CB /* BookAPIServiceSpec.swift */,
 				92A789922640600200B9539C /* Info.plist */,
 			);
 			path = BooksTests;
@@ -310,6 +333,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9200E4D326ADDAC200D795CB /* search_result.json in Resources */,
+				9200E4D226ADDAC200D795CB /* search_result_empty.json in Resources */,
+				9200E4D426ADDAC200D795CB /* search_result_malformed.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PROJECT_DIR}/run\" --download generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/FileName1.swift\" \\\n\"${INPUT_DIR}/FileName2.swift\" \\\n\"${INPUT_DIR}/FileName3.swift\"\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
+			shellScript = "# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PROJECT_DIR}/run\" --download generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Helpers/ErrorLogging.swift\" \\\n\"${INPUT_DIR}/FileName2.swift\" \\\n\"${INPUT_DIR}/FileName3.swift\"\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -349,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9200E4C126ADCE5200D795CB /* ErrorLogger.swift in Sources */,
+				9200E4CD26ADDA9800D795CB /* BookAPIService.swift in Sources */,
 				9200E4B926ADCAD300D795CB /* MainViewController.swift in Sources */,
 				9200E4C526ADD27400D795CB /* SearchResultModel.swift in Sources */,
 				9200E4CB26ADD2D100D795CB /* BookCoverAPIService.swift in Sources */,
@@ -363,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9200E4D626ADDAD500D795CB /* BookAPIServiceSpec.swift in Sources */,
 				9200E4BC26ADCC2500D795CB /* GeneratedMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,1104 @@
+{
+    "numFound": 1335,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+        {
+            "key": "/works/OL9555308W",
+            "text": [
+                "/works/OL9555308W",
+                "Wicked Sensation",
+                "OL11159659M",
+                "George Lynch (Other Contributor)",
+                "David Whitehill (Other Contributor)",
+                "0793503124",
+                "9780793503124",
+                "Hal Leonard Publishing Corporation",
+                "OL3558064A",
+                "Lynch Mob"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL11159659M",
+                "/works/OL9555308W",
+                "/authors/OL3558064A"
+            ],
+            "title": "Wicked Sensation",
+            "title_suggest": "Wicked Sensation",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL11159659M"
+            ],
+            "publish_date": [
+                "January 1991"
+            ],
+            "publish_year": [
+                1991
+            ],
+            "first_publish_year": 1991,
+            "contributor": [
+                "George Lynch (Other Contributor)",
+                "David Whitehill (Other Contributor)"
+            ],
+            "isbn": [
+                "0793503124",
+                "9780793503124"
+            ],
+            "last_modified_i": 1294479384,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Hal Leonard Publishing Corporation"
+            ],
+            "author_key": [
+                "OL3558064A"
+            ],
+            "author_name": [
+                "Lynch Mob"
+            ],
+            "id_goodreads": [
+                "6861635"
+            ],
+            "publisher_facet": [
+                "Hal Leonard Publishing Corporation"
+            ],
+            "_version_": 1700721631284953090,
+            "author_facet": [
+                "OL3558064A Lynch Mob"
+            ]
+        },
+        {
+            "key": "/works/OL22015180W",
+            "text": [
+                "/works/OL22015180W",
+                "Notebook/Journal My Cute Unicorn Rainbow",
+                "Draw and Write Journal/Sketchbook for Kids Specially Girls, +100 Pages of Lined and Blank Paper, Rainbow Unicorn",
+                "OL30029576M",
+                "9798632426350",
+                "Independently Published",
+                "OL8426130A",
+                "Mob Designe"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL30029576M",
+                "/works/OL22015180W",
+                "/authors/OL8426130A"
+            ],
+            "title": "Notebook/Journal My Cute Unicorn Rainbow",
+            "title_suggest": "Notebook/Journal My Cute Unicorn Rainbow",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL30029576M"
+            ],
+            "publish_date": [
+                "2020"
+            ],
+            "publish_year": [
+                2020
+            ],
+            "first_publish_year": 2020,
+            "isbn": [
+                "9798632426350"
+            ],
+            "last_modified_i": 1599066576,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Independently Published"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL8426130A"
+            ],
+            "author_name": [
+                "Mob Designe"
+            ],
+            "publisher_facet": [
+                "Independently Published"
+            ],
+            "_version_": 1700708774867632128,
+            "author_facet": [
+                "OL8426130A Mob Designe"
+            ]
+        },
+        {
+            "key": "/works/OL21960907W",
+            "text": [
+                "/works/OL21960907W",
+                "Dad I Wrote This Book about You",
+                "Fill in the Blank Book for What You Love about Dad. Perfect Gift for Dad's Birthday, Father's Day, Christmas or Just to Show Dad You Love Him!",
+                "OL29952174M",
+                "9798649979283",
+                "Independently Published",
+                "OL8399503A",
+                "Redoane Mob"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL29952174M",
+                "/works/OL21960907W",
+                "/authors/OL8399503A"
+            ],
+            "title": "Dad I Wrote This Book about You",
+            "title_suggest": "Dad I Wrote This Book about You",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL29952174M"
+            ],
+            "publish_date": [
+                "2020"
+            ],
+            "publish_year": [
+                2020
+            ],
+            "first_publish_year": 2020,
+            "isbn": [
+                "9798649979283"
+            ],
+            "last_modified_i": 1599007951,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Independently Published"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL8399503A"
+            ],
+            "author_name": [
+                "Redoane Mob"
+            ],
+            "publisher_facet": [
+                "Independently Published"
+            ],
+            "_version_": 1700708739808493570,
+            "author_facet": [
+                "OL8399503A Redoane Mob"
+            ]
+        },
+        {
+            "key": "/works/OL22257391W",
+            "text": [
+                "/works/OL22257391W",
+                "Tattoo Coloring Book for Adults",
+                "Coloring and Drawing Pages for Adult Relaxation with Beautiful Modern Tattoo Designs Such As Sugar Skulls, Roses and More!",
+                "OL30321605M",
+                "9798647222749",
+                "Independently Published",
+                "OL8426130A",
+                "Mob Designe"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL30321605M",
+                "/works/OL22257391W",
+                "/authors/OL8426130A"
+            ],
+            "title": "Tattoo Coloring Book for Adults",
+            "title_suggest": "Tattoo Coloring Book for Adults",
+            "has_fulltext": false,
+            "edition_count": 1,
+            "edition_key": [
+                "OL30321605M"
+            ],
+            "publish_date": [
+                "2020"
+            ],
+            "publish_year": [
+                2020
+            ],
+            "first_publish_year": 2020,
+            "isbn": [
+                "9798647222749"
+            ],
+            "last_modified_i": 1600376243,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Independently Published"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL8426130A"
+            ],
+            "author_name": [
+                "Mob Designe"
+            ],
+            "publisher_facet": [
+                "Independently Published"
+            ],
+            "_version_": 1700709052937404418,
+            "author_facet": [
+                "OL8426130A Mob Designe"
+            ]
+        },
+        {
+            "key": "/works/OL4380575W",
+            "text": [
+                "/works/OL4380575W",
+                "Mobbing",
+                "Psychoterror am Arbeitsplatz und wie man sich dagegen wehren kann",
+                "Mobbing.",
+                "OL12743301M",
+                "OL20722393M",
+                "OL12744298M",
+                "Heinz Leymann.",
+                "76390002",
+                "3499263742",
+                "9783499133510",
+                "9783499263743",
+                "3499133512",
+                "Rowohlt TB-V. Rnb.",
+                "Rowohlt Tb.",
+                "Rowohlt Taschenbuch Verlag",
+                "OL862501A",
+                "Heinz Leymann",
+                "Bullying in the workplace",
+                "Psychological abuse",
+                "Job stress"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL12743301M",
+                "/books/OL20722393M",
+                "/books/OL12744298M",
+                "/works/OL4380575W",
+                "/subjects/bullying_in_the_workplace",
+                "/subjects/psychological_abuse",
+                "/subjects/job_stress",
+                "/authors/OL862501A"
+            ],
+            "title": "Mobbing",
+            "title_suggest": "Mobbing",
+            "subtitle": "Psychoterror am Arbeitsplatz und wie man sich dagegen wehren kann",
+            "has_fulltext": false,
+            "edition_count": 3,
+            "edition_key": [
+                "OL12743301M",
+                "OL20722393M",
+                "OL12744298M"
+            ],
+            "publish_date": [
+                "1993",
+                "April 1, 1993",
+                "March 1, 2002"
+            ],
+            "publish_year": [
+                1993,
+                2002
+            ],
+            "first_publish_year": 1993,
+            "publish_place": [
+                "Reinbek bei Hamburg"
+            ],
+            "oclc": [
+                "76390002"
+            ],
+            "lcc": [
+                "HF-5548.85000000.L49 1993x"
+            ],
+            "isbn": [
+                "3499263742",
+                "9783499133510",
+                "9783499263743",
+                "3499133512"
+            ],
+            "last_modified_i": 1303781099,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL12743301M",
+            "cover_i": 3216395,
+            "publisher": [
+                "Rowohlt TB-V. Rnb.",
+                "Rowohlt Tb.",
+                "Rowohlt Taschenbuch Verlag"
+            ],
+            "language": [
+                "ger"
+            ],
+            "author_key": [
+                "OL862501A"
+            ],
+            "author_name": [
+                "Heinz Leymann"
+            ],
+            "subject": [
+                "Bullying in the workplace",
+                "Psychological abuse",
+                "Job stress"
+            ],
+            "id_goodreads": [
+                "4693660"
+            ],
+            "id_librarything": [
+                "8246861"
+            ],
+            "publisher_facet": [
+                "Rowohlt TB-V. Rnb.",
+                "Rowohlt Taschenbuch Verlag",
+                "Rowohlt Tb."
+            ],
+            "subject_facet": [
+                "Bullying in the workplace",
+                "Job stress",
+                "Psychological abuse"
+            ],
+            "_version_": 1700714468728635392,
+            "lcc_sort": "HF-5548.85000000.L49 1993x",
+            "author_facet": [
+                "OL862501A Heinz Leymann"
+            ],
+            "subject_key": [
+                "bullying_in_the_workplace",
+                "job_stress",
+                "psychological_abuse"
+            ]
+        },
+        {
+            "key": "/works/OL672075W",
+            "text": [
+                "/works/OL672075W",
+                "Mobbing",
+                "an\u00e1lisis multidisciplinar y estrategia legal : Comentarios y formularios",
+                "an\u00e1lisis multidisciplinar y estrategia legal : adaptado a la Ley 62/2003, de 30 de diciembre : comentarios y formularios",
+                "OL31648876M",
+                "OL16288078M",
+                "Jos\u00e9 Francisco Escudero Moratalla, Gl\u00f2ria Poyatos i Matas.",
+                "Jos\u00e9 Francisco Escudero Moratalla, Gl\u00f2ria Poyatos i Matas",
+                "2007354484",
+                "2005359598",
+                "Poyatos i Matas, Gl\u00f2ria",
+                "Poyatos i Matas, Gl\u00f2ria.",
+                "9788497901895",
+                "8497900251",
+                "8497901894",
+                "9788497900256",
+                "Bosch",
+                "OL52431A",
+                "J. F. Escudero",
+                "Spain",
+                "Bullying in the workplace",
+                "Criminal provisions",
+                "Harassment",
+                "Labor laws and legislation",
+                "Law and legislation"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL31648876M",
+                "/books/OL16288078M",
+                "/works/OL672075W",
+                "/subjects/bullying_in_the_workplace",
+                "/subjects/criminal_provisions",
+                "/subjects/harassment",
+                "/subjects/labor_laws_and_legislation",
+                "/subjects/law_and_legislation",
+                "/subjects/place:spain",
+                "/authors/OL52431A"
+            ],
+            "title": "Mobbing",
+            "title_suggest": "Mobbing",
+            "has_fulltext": false,
+            "edition_count": 2,
+            "edition_key": [
+                "OL31648876M",
+                "OL16288078M"
+            ],
+            "publish_date": [
+                "2005",
+                "2004"
+            ],
+            "publish_year": [
+                2005,
+                2004
+            ],
+            "first_publish_year": 2004,
+            "lccn": [
+                "2007354484",
+                "2005359598"
+            ],
+            "publish_place": [
+                "Barcelona"
+            ],
+            "contributor": [
+                "Poyatos i Matas, Gl\u00f2ria",
+                "Poyatos i Matas, Gl\u00f2ria."
+            ],
+            "lcc": [
+                "KKT1326.00000000.E83 2004",
+                "KKT1439.00000000.E83 2005"
+            ],
+            "isbn": [
+                "9788497901895",
+                "8497900251",
+                "8497901894",
+                "9788497900256"
+            ],
+            "last_modified_i": 1608234818,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Bosch"
+            ],
+            "language": [
+                "spa"
+            ],
+            "author_key": [
+                "OL52431A"
+            ],
+            "author_name": [
+                "J. F. Escudero"
+            ],
+            "place": [
+                "Spain"
+            ],
+            "subject": [
+                "Bullying in the workplace",
+                "Criminal provisions",
+                "Harassment",
+                "Labor laws and legislation",
+                "Law and legislation"
+            ],
+            "publisher_facet": [
+                "Bosch"
+            ],
+            "place_key": [
+                "spain"
+            ],
+            "subject_facet": [
+                "Bullying in the workplace",
+                "Criminal provisions",
+                "Harassment",
+                "Labor laws and legislation",
+                "Law and legislation"
+            ],
+            "_version_": 1700717895504363521,
+            "place_facet": [
+                "Spain"
+            ],
+            "lcc_sort": "KKT1326.00000000.E83 2004",
+            "author_facet": [
+                "OL52431A J. F. Escudero"
+            ],
+            "subject_key": [
+                "bullying_in_the_workplace",
+                "criminal_provisions",
+                "harassment",
+                "labor_laws_and_legislation",
+                "law_and_legislation"
+            ]
+        },
+        {
+            "key": "/works/OL7833381W",
+            "text": [
+                "/works/OL7833381W",
+                "Mobbing",
+                "Emotional Abuse in the American Workplace, 2002 Revised Edition",
+                "emotional abuse in the American workplace",
+                "OL8555956M",
+                "OL6897216M",
+                "Noa Davenport, Ph.D., Ruth Distler Schwartz, Gail Pursell Elliott ; foreword by Dr. Heinz Leymann ; illustrations by Sabra Vidali.",
+                "00699536",
+                "42885042",
+                "Elliott, Gail Pursell.",
+                "Schwartz, Ruth Distler.",
+                "9780967180304",
+                "0967180309",
+                "Civil Society Publishing",
+                "OL2493210A",
+                "OL3017045A",
+                "OL3017046A",
+                "Noa Davenport",
+                "Ruth D. Schwartz",
+                "Gail Pursell Elliott",
+                "Job stress",
+                "Personnel management",
+                "Harassment",
+                "Psychological abuse",
+                "Bullying in the workplace",
+                "Sociology",
+                "General",
+                "Psychology",
+                "Labor & Industrial Relations - General",
+                "Self-Help",
+                "Organizational Behavior In Business",
+                "Corporate Culture",
+                "Bullying",
+                "Workplace",
+                "Business Life",
+                "Stress"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL8555956M",
+                "/books/OL6897216M",
+                "/works/OL7833381W",
+                "/subjects/job_stress",
+                "/subjects/personnel_management",
+                "/subjects/harassment",
+                "/subjects/psychological_abuse",
+                "/subjects/bullying_in_the_workplace",
+                "/subjects/sociology",
+                "/subjects/general",
+                "/subjects/psychology",
+                "/subjects/labor_&_industrial_relations_-_general",
+                "/subjects/self-help",
+                "/subjects/organizational_behavior_in_business",
+                "/subjects/corporate_culture",
+                "/subjects/bullying",
+                "/subjects/workplace",
+                "/subjects/business_life",
+                "/subjects/stress",
+                "/authors/OL2493210A",
+                "/authors/OL3017045A",
+                "/authors/OL3017046A"
+            ],
+            "title": "Mobbing",
+            "title_suggest": "Mobbing",
+            "has_fulltext": false,
+            "edition_count": 2,
+            "edition_key": [
+                "OL8555956M",
+                "OL6897216M"
+            ],
+            "publish_date": [
+                "1999",
+                "July 1999"
+            ],
+            "publish_year": [
+                1999
+            ],
+            "first_publish_year": 1999,
+            "lccn": [
+                "00699536"
+            ],
+            "publish_place": [
+                "Ames, Iowa"
+            ],
+            "oclc": [
+                "42885042"
+            ],
+            "contributor": [
+                "Elliott, Gail Pursell.",
+                "Schwartz, Ruth Distler."
+            ],
+            "lcc": [
+                "HF-5548.85000000.D377 1999"
+            ],
+            "ddc": [
+                "331.25"
+            ],
+            "isbn": [
+                "9780967180304",
+                "0967180309"
+            ],
+            "last_modified_i": 1600039377,
+            "ebook_count_i": 0,
+            "cover_edition_key": "OL6897216M",
+            "cover_i": 732567,
+            "publisher": [
+                "Civil Society Publishing"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL2493210A",
+                "OL3017045A",
+                "OL3017046A"
+            ],
+            "author_name": [
+                "Noa Davenport",
+                "Ruth D. Schwartz",
+                "Gail Pursell Elliott"
+            ],
+            "subject": [
+                "Job stress",
+                "Personnel management",
+                "Harassment",
+                "Psychological abuse",
+                "Bullying in the workplace",
+                "Sociology",
+                "General",
+                "Psychology",
+                "Labor & Industrial Relations - General",
+                "Self-Help",
+                "Organizational Behavior In Business",
+                "Corporate Culture",
+                "Bullying",
+                "Workplace",
+                "Business Life",
+                "Stress"
+            ],
+            "id_goodreads": [
+                "685611"
+            ],
+            "id_librarything": [
+                "1767607"
+            ],
+            "publisher_facet": [
+                "Civil Society Publishing"
+            ],
+            "subject_facet": [
+                "Bullying",
+                "Bullying in the workplace",
+                "Business Life",
+                "Corporate Culture",
+                "General",
+                "Harassment",
+                "Job stress",
+                "Labor & Industrial Relations - General",
+                "Organizational Behavior In Business",
+                "Personnel management",
+                "Psychological abuse",
+                "Psychology",
+                "Self-Help",
+                "Sociology",
+                "Stress",
+                "Workplace"
+            ],
+            "_version_": 1700719291903508484,
+            "lcc_sort": "HF-5548.85000000.D377 1999",
+            "author_facet": [
+                "OL2493210A Noa Davenport",
+                "OL3017045A Ruth D. Schwartz",
+                "OL3017046A Gail Pursell Elliott"
+            ],
+            "subject_key": [
+                "bullying",
+                "bullying_in_the_workplace",
+                "business_life",
+                "corporate_culture",
+                "general",
+                "harassment",
+                "job_stress",
+                "labor__industrial_relations_-_general",
+                "organizational_behavior_in_business",
+                "personnel_management",
+                "psychological_abuse",
+                "psychology",
+                "self-help",
+                "sociology",
+                "stress",
+                "workplace"
+            ],
+            "ddc_sort": "331.25"
+        },
+        {
+            "key": "/works/OL8839751W",
+            "text": [
+                "/works/OL8839751W",
+                "Mob",
+                "OL8583458M",
+                "OL9483336M",
+                "9780974702513",
+                "9781601620101",
+                "1601620101",
+                "097470251X",
+                "mob00royg",
+                "Urban Books",
+                "OL3028711A",
+                "Roy Glenn",
+                "Organized crime",
+                "Gangsters",
+                "Fiction",
+                "Crime, fiction",
+                "Fiction, romance, suspense",
+                "Criminals, fiction",
+                "United states, fiction",
+                "Accessible book",
+                "Protected DAISY"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL8583458M",
+                "/books/OL9483336M",
+                "/works/OL8839751W",
+                "/subjects/organized_crime",
+                "/subjects/gangsters",
+                "/subjects/fiction",
+                "/subjects/crime_fiction",
+                "/subjects/fiction_romance_suspense",
+                "/subjects/criminals_fiction",
+                "/subjects/united_states_fiction",
+                "/authors/OL3028711A"
+            ],
+            "title": "Mob",
+            "title_suggest": "Mob",
+            "has_fulltext": true,
+            "edition_count": 2,
+            "edition_key": [
+                "OL8583458M",
+                "OL9483336M"
+            ],
+            "publish_date": [
+                "July 1, 2007",
+                "December 1, 2004"
+            ],
+            "publish_year": [
+                2004,
+                2007
+            ],
+            "first_publish_year": 2004,
+            "lcc": [
+                "PS-3607.00000000"
+            ],
+            "isbn": [
+                "9780974702513",
+                "9781601620101",
+                "1601620101",
+                "097470251X"
+            ],
+            "last_modified_i": 1602507531,
+            "ebook_count_i": 1,
+            "ia": [
+                "mob00royg"
+            ],
+            "public_scan_b": false,
+            "ia_collection_s": "china;internetarchivebooks;printdisabled;inlibrary;fav-shahzadk007",
+            "lending_edition_s": "OL8583458M",
+            "lending_identifier_s": "mob00royg",
+            "printdisabled_s": "OL8583458M",
+            "cover_edition_key": "OL8583458M",
+            "cover_i": 740494,
+            "publisher": [
+                "Urban Books"
+            ],
+            "language": [
+                "eng"
+            ],
+            "author_key": [
+                "OL3028711A"
+            ],
+            "author_name": [
+                "Roy Glenn"
+            ],
+            "subject": [
+                "Organized crime",
+                "Gangsters",
+                "Fiction",
+                "Crime, fiction",
+                "Fiction, romance, suspense",
+                "Criminals, fiction",
+                "United states, fiction",
+                "Accessible book",
+                "Protected DAISY"
+            ],
+            "id_goodreads": [
+                "503206",
+                "536258"
+            ],
+            "id_librarything": [
+                "982816"
+            ],
+            "ia_box_id": [
+                "IA106201"
+            ],
+            "publisher_facet": [
+                "Urban Books"
+            ],
+            "subject_facet": [
+                "Accessible book",
+                "Crime, fiction",
+                "Criminals, fiction",
+                "Fiction",
+                "Fiction, romance, suspense",
+                "Gangsters",
+                "Organized crime",
+                "Protected DAISY",
+                "United states, fiction"
+            ],
+            "_version_": 1700720716319555586,
+            "lcc_sort": "PS-3607.00000000",
+            "author_facet": [
+                "OL3028711A Roy Glenn"
+            ],
+            "subject_key": [
+                "accessible_book",
+                "crime_fiction",
+                "criminals_fiction",
+                "fiction",
+                "fiction_romance_suspense",
+                "gangsters",
+                "organized_crime",
+                "protected_daisy",
+                "united_states_fiction"
+            ]
+        },
+        {
+            "key": "/works/OL10032695W",
+            "text": [
+                "/works/OL10032695W",
+                "Mobbing",
+                "Mobbing.",
+                "Acoso moral en el trabajo",
+                "el acoso moral en el trabajo : prevenci\u00f3n, s\u00edntomas y soluciones",
+                "OL12717248M",
+                "OL23036605M",
+                "Trude Ausfelder ; [traducci\u00f3n, Teresa Bosch].",
+                "9788475561486",
+                "8475561489",
+                "3453180682",
+                "9783453180680",
+                "mobbingelacosomo00ausf",
+                "Heyne",
+                "Oc\u00e9ano Ambar",
+                "OL4006282A",
+                "Trude Ausfelder",
+                "Intimidaci\u00f3n en el lugar de trabajo",
+                "Job stress",
+                "Acoso",
+                "Bullying in the workplace",
+                "Harassment",
+                "Psychological abuse",
+                "Estr\u00e9s laboral",
+                "Abuso psicol\u00f3gico",
+                "Accessible book",
+                "Protected DAISY"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL12717248M",
+                "/books/OL23036605M",
+                "/works/OL10032695W",
+                "/subjects/intimidaci\u00f3n_en_el_lugar_de_trabajo",
+                "/subjects/job_stress",
+                "/subjects/acoso",
+                "/subjects/bullying_in_the_workplace",
+                "/subjects/harassment",
+                "/subjects/psychological_abuse",
+                "/subjects/estr\u00e9s_laboral",
+                "/subjects/abuso_psicol\u00f3gico",
+                "/authors/OL4006282A"
+            ],
+            "title": "Mobbing",
+            "title_suggest": "Mobbing",
+            "has_fulltext": true,
+            "edition_count": 2,
+            "edition_key": [
+                "OL12717248M",
+                "OL23036605M"
+            ],
+            "publish_date": [
+                "2002",
+                "December 1, 2000"
+            ],
+            "publish_year": [
+                2002,
+                2000
+            ],
+            "first_publish_year": 2000,
+            "publish_place": [
+                "Barcelona"
+            ],
+            "isbn": [
+                "9788475561486",
+                "8475561489",
+                "3453180682",
+                "9783453180680"
+            ],
+            "last_modified_i": 1590094845,
+            "ebook_count_i": 1,
+            "ia": [
+                "mobbingelacosomo00ausf"
+            ],
+            "public_scan_b": false,
+            "ia_collection_s": "fav-max414;printdisabled;internetarchivebooks;inlibrary;americana",
+            "lending_edition_s": "OL23036605M",
+            "lending_identifier_s": "mobbingelacosomo00ausf",
+            "printdisabled_s": "OL23036605M",
+            "cover_edition_key": "OL12717248M",
+            "cover_i": 3202783,
+            "publisher": [
+                "Heyne",
+                "Oc\u00e9ano Ambar"
+            ],
+            "language": [
+                "spa"
+            ],
+            "author_key": [
+                "OL4006282A"
+            ],
+            "author_name": [
+                "Trude Ausfelder"
+            ],
+            "subject": [
+                "Intimidaci\u00f3n en el lugar de trabajo",
+                "Job stress",
+                "Acoso",
+                "Bullying in the workplace",
+                "Harassment",
+                "Psychological abuse",
+                "Estr\u00e9s laboral",
+                "Abuso psicol\u00f3gico",
+                "Accessible book",
+                "Protected DAISY"
+            ],
+            "id_goodreads": [
+                "5109304",
+                "5109309"
+            ],
+            "ia_box_id": [
+                "IA164119"
+            ],
+            "publisher_facet": [
+                "Heyne",
+                "Oc\u00e9ano Ambar"
+            ],
+            "subject_facet": [
+                "Abuso psicol\u00f3gico",
+                "Accessible book",
+                "Acoso",
+                "Bullying in the workplace",
+                "Estr\u00e9s laboral",
+                "Harassment",
+                "Intimidaci\u00f3n en el lugar de trabajo",
+                "Job stress",
+                "Protected DAISY",
+                "Psychological abuse"
+            ],
+            "_version_": 1700694630910132226,
+            "author_facet": [
+                "OL4006282A Trude Ausfelder"
+            ],
+            "subject_key": [
+                "abuso_psicol\u00f3gico",
+                "accessible_book",
+                "acoso",
+                "bullying_in_the_workplace",
+                "estr\u00e9s_laboral",
+                "harassment",
+                "intimidaci\u00f3n_en_el_lugar_de_trabajo",
+                "job_stress",
+                "protected_daisy",
+                "psychological_abuse"
+            ]
+        },
+        {
+            "key": "/works/OL10144930W",
+            "text": [
+                "/works/OL10144930W",
+                "Mobbing",
+                "acoso psicol\u00f3gico en el \u00e1mbito laboral",
+                "OL12960201M",
+                "OL17934884M",
+                "Francisco Javier Abajo Olivares.",
+                "2004443964",
+                "2007402859",
+                "9875921254",
+                "9789501419412",
+                "950141941X",
+                "9789875921252",
+                "Abeledo - Perrot",
+                "LexisNexis Argentina",
+                "OL4137404A",
+                "Francisco Javier Abajo Olivares",
+                "Argentina",
+                "Bullying in the workplace",
+                "Harassment",
+                "Law and legislation"
+            ],
+            "type": "work",
+            "seed": [
+                "/books/OL12960201M",
+                "/books/OL17934884M",
+                "/works/OL10144930W",
+                "/subjects/bullying_in_the_workplace",
+                "/subjects/harassment",
+                "/subjects/law_and_legislation",
+                "/subjects/place:argentina",
+                "/authors/OL4137404A"
+            ],
+            "title": "Mobbing",
+            "title_suggest": "Mobbing",
+            "has_fulltext": false,
+            "edition_count": 2,
+            "edition_key": [
+                "OL12960201M",
+                "OL17934884M"
+            ],
+            "publish_date": [
+                "June 2004",
+                "2006"
+            ],
+            "publish_year": [
+                2006,
+                2004
+            ],
+            "first_publish_year": 2004,
+            "lccn": [
+                "2004443964",
+                "2007402859"
+            ],
+            "publish_place": [
+                "[Buenos Aires]"
+            ],
+            "lcc": [
+                "KHA1869.00000000.A93 2004",
+                "KHA1869.00000000.A93 2006"
+            ],
+            "isbn": [
+                "9875921254",
+                "9789501419412",
+                "950141941X",
+                "9789875921252"
+            ],
+            "last_modified_i": 1608254090,
+            "ebook_count_i": 0,
+            "publisher": [
+                "Abeledo - Perrot",
+                "LexisNexis Argentina"
+            ],
+            "language": [
+                "spa"
+            ],
+            "author_key": [
+                "OL4137404A"
+            ],
+            "author_name": [
+                "Francisco Javier Abajo Olivares"
+            ],
+            "place": [
+                "Argentina"
+            ],
+            "subject": [
+                "Bullying in the workplace",
+                "Harassment",
+                "Law and legislation"
+            ],
+            "id_goodreads": [
+                "1809473"
+            ],
+            "publisher_facet": [
+                "Abeledo - Perrot",
+                "LexisNexis Argentina"
+            ],
+            "place_key": [
+                "argentina"
+            ],
+            "subject_facet": [
+                "Bullying in the workplace",
+                "Harassment",
+                "Law and legislation"
+            ],
+            "_version_": 1700694730028875778,
+            "place_facet": [
+                "Argentina"
+            ],
+            "lcc_sort": "KHA1869.00000000.A93 2004",
+            "author_facet": [
+                "OL4137404A Francisco Javier Abajo Olivares"
+            ],
+            "subject_key": [
+                "bullying_in_the_workplace",
+                "harassment",
+                "law_and_legislation"
+            ]
+        }
+    ],
+    "num_found": 1335
+}
