@@ -1,5 +1,8 @@
 # Books App / Take Home
 
+| ![Simulator Screenshot - iPhone 15 Pro - 2023-10-09 at 10 06 14](https://github.com/kleber-maia/books-take-home/assets/10270929/b0dc87d0-6fa8-408d-bb0c-e3db2b8f169b) | ![Simulator Screenshot - iPhone 15 Pro - 2023-10-09 at 10 06 27](https://github.com/kleber-maia/books-take-home/assets/10270929/94ce8dbf-f0cc-4d77-9ab3-d86416be9fe8) |
+| - | - |
+
 ### The architectural design
 I chose MVVM for the application's view tier, alongside single-responsibility and dependency injection principles for everything else. The reasons behind those choices were:
 
